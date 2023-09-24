@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Nunito+Sans:wght@200;300;400;600;700&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <title>Login</title>
+</head>
+<body>
+    <!--Login Alert-->
+    <div class="login">
+        <i class="fa-solid fa-xmark" onclick="history.back()"></i>
+        <h1>Greenden</h1>
+        <p>Welcome back! Sign in with</p><br>
+        <div class="media">
+            <a href="https://mail.google.com/"><button id="google"><i class="fa-brands fa-google"></i>&nbsp;&nbsp;Google</button></a>&nbsp;&nbsp;
+            <a href="https://www.facebook.com/login/"><button id="facebook"> <i class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp;  Facebook</button></a><br><br>
+        </div><br>
+        <div class="type">
+            <input type="text" placeholder="Email"><br>
+            <input type="password" id="pwd" placeholder="Password"><br>
+            <a href="#" id="forgot">Forgot Password?</a><br>
+            <button>SIGN IN</button>
+            <p>New here?<span><a href="new.html" id="new"> Create an account</a></span></p>
+        </div>
+    </div>
+</body>
+</html>
